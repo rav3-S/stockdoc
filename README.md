@@ -1,5 +1,7 @@
 ### To Start in local
 
-cd backend
-venv\Scripts\activate # Activates virtual environment on Windows
-uvicorn main:app --reload
+1. cd backend
+
+2. venv\Scripts\activate # Activates virtual environment on Windows
+
+3. uvicorn main:app --reload
