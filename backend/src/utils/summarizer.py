@@ -18,6 +18,8 @@ Report:
 {report_text}
 """
 
+# Need chunking for proper reading odf doc
+
 def summarize_report(text: str) -> str:
     prompt = PromptTemplate(
         input_variables=["report_text"],
